@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/imgs/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/imgs/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/imgs/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/imgs/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/imgs/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/imgs/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/imgs/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/imgs/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/imgs/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/imgs/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#00629B">
+    <meta name="msapplication-TileImage" content="/assets/imgs/ms-icon-144x144.png">
+    <meta name="theme-color" content="#00629B">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <script src="assets/js/animation.js"></script>
+    <title>IEEE - FCyT UADER</title>
+</head>
+<body>
+    <header class="full-vw center-all">
+    </header>
+    <main class="flex-container">
+        <div id="menu" class="flex-container full-vw center-all">
+            <a href="https://edu.ieee.org/ar-fcytuader/">
+                <button class="main-option center-all" id="option-web" onmouseover="ActualizarTexto('web')" onmouseout="ActualizarTexto(false)"></button>
+            </a>
+            <a href="https://ieeecdelu.andchill.tv/">
+                <button class="main-option center-all" id="option-cinema" onmouseover="ActualizarTexto('cinema')" onmouseout="ActualizarTexto(false)"></button>
+            </a>
+            <a href="https://edu.ieee.org/ar-fcytuader/courses/">
+                <button class="main-option center-all" id="option-courses" onmouseover="ActualizarTexto('courses')" onmouseout="ActualizarTexto(false)"></button>
+            </a>
+            <a href="https://www.instagram.com/ieee.cdelu/">
+                <button class="main-option center-all" id="option-ig" onmouseover="ActualizarTexto('ig')" onmouseout="ActualizarTexto(false)"></button>
+            </a>
+        </div>
+        <div class="flex-container info-container center-all full-vw">
+            <h4 id="info" class="flex-container center-all full-vw">Bienvenido! Por favor, selecciones una opción y lo redirigiremos a la brevedad.</h4>
+        </div>
+    </main>
+    <footer class="flex-container full-vw center-all">
+        <div id="socialmedia" class="full-vw center-all">
+            <a href="https://www.instagram.com/ieee.cdelu/">
+                <button class="footer-option center-all" id="option-ig"></button>
+            </a>
+            <a href="https://discord.com/invite/dw75WYE">
+                <button class="footer-option center-all" id="option-ds"></button>
+            </a>
+            <a href="https://www.instagram.com/ieee.cdelu/">
+                <button class="footer-option center-all" id="option-yt"></button>
+            </a>
+        </div>
+    </footer>
+    <script>let CuadroDeInformacion = document.getElementById('info');</script>
+</body>
+</html>
